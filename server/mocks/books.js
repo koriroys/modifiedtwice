@@ -4,7 +4,12 @@ module.exports = function(app) {
 
   booksRouter.get('/', function(req, res) {
     res.send({
-      'books': []
+      'books': [
+        {
+          id: 1,
+          title: "Game of Thrones"
+        }
+      ]
     });
   });
 
