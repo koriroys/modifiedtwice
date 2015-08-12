@@ -8,6 +8,10 @@ module.exports = function(app) {
         {
           id: 1,
           title: "Game of Thrones"
+        },
+        {
+          id: 2,
+          title: "Ender's Game"
         }
       ]
     });

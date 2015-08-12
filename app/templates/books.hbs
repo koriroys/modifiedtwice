@@ -1,3 +1,9 @@
+<h1>All books</h1>
+<h3>book count: {{visibleBooks.length}}</h3>
+<ul>
 {{#each model as |book|}}
-  {{book.title}}
+  <li>{{book.title}}</li>
 {{/each}}
+</ul>
+
+<button {{action "newBook"}}>new book</button>
